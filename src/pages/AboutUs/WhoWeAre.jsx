@@ -58,7 +58,7 @@ const WhoWeAre = () => {
                 transition={{ delay: 0.1 }}
                 className="inline-block bg-blue-700/30 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6"
               >
-                <p className="text-sm font-medium">About Digital Energy</p>
+                <p className="text-sm font-medium">Who we are</p>
               </motion.div>
               <motion.h2 
                 initial={{ opacity: 0, y: 20 }}

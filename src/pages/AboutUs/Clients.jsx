@@ -85,7 +85,7 @@ const Clients = () => {
           >
             <div className="absolute inset-0">
               <img
-                src="/src/assets/pic_13.png"
+                src="/src/assets/p77.jpg"
                 alt="Our Clients"
                 className="w-full h-full object-cover opacity-40"
               />
@@ -99,7 +99,7 @@ const Clients = () => {
                 transition={{ delay: 0.1 }}
                 className="inline-block bg-blue-700/30 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6"
               >
-                <p className="text-sm font-medium">Our Partners</p>
+                <p className="text-sm font-medium">Our Clients</p>
               </motion.div>
               <motion.h2 
                 initial={{ opacity: 0, y: 20 }}
