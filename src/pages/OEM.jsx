@@ -58,21 +58,44 @@ export default function OEM() {
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/src/assets/Capture.png"
+            alt="OEM"
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-800/70" />
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png')] opacity-10" />
+        </div>
+        <div className="relative z-10 container mx-auto px-6 max-w-5xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl mx-auto"
+            transition={{ delay: 0.1 }}
+            className="inline-block bg-blue-700/30 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Premium OEM Partnerships</h1>
-            <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-              Strategic alliances with industry leaders for cutting-edge solutions
-            </p>
+            <p className="text-sm font-medium">OEM</p>
           </motion.div>
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-4xl md:text-5xl font-bold mb-6"
+          >
+            Premium OEM <span className="text-orange-400">Partnerships</span>
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="text-xl text-blue-100 max-w-3xl leading-relaxed"
+          >
+            Strategic alliances with industry leaders for cutting-edge solutions
+          </motion.p>
         </div>
       </section>
+
 
       {/* OEM Overview */}
       <section className="py-16">
