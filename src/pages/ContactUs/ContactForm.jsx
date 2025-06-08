@@ -46,15 +46,7 @@ export default function ContactForm() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-20">
       {/* Hero Section */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-800 to-orange-600 z-0" />
-        <div className="absolute inset-0 bg-[url('/src/assets/pattern.svg')] opacity-10 z-10" />
-        <div className="container mx-auto px-4 relative z-20">
-        <motion.div 
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  className="relative bg-gradient-to-r from-blue-800 to-blue-900 text-white py-16 md:py-24 rounded-b-2xl overflow-hidden"
->
+      <section className="py-16 bg-gradient-to-r from-blue-800 to-blue-900 text-white relative overflow-hidden rounded-2xl mx-4 md:mx-6 lg:mx-8">
   <div className="absolute inset-0">
     <img
       src="/src/assets/p88.png"
@@ -64,14 +56,14 @@ export default function ContactForm() {
     <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-800/70" />
     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png')] opacity-10" />
   </div>
-  <div className="relative z-10 container mx-auto px-6 max-w-5xl pt-20">
+  <div className="relative z-10 container mx-auto px-6 max-w-5xl">
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.1 }}
       className="inline-block bg-blue-700/30 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6"
     >
-      <p className="text-sm font-medium">Get in Touch</p>
+      <p className="text-sm font-medium">Contact Us</p>
     </motion.div>
     <motion.h2 
       initial={{ opacity: 0, y: 20 }}
@@ -79,7 +71,7 @@ export default function ContactForm() {
       transition={{ delay: 0.2 }}
       className="text-4xl md:text-5xl font-bold mb-6"
     >
-      Contact <span className="text-orange-400">Us</span>
+      Excellence Through <span className="text-orange-400">Communication</span>
     </motion.h2>
     <motion.p 
       initial={{ opacity: 0, y: 20 }}
@@ -87,12 +79,10 @@ export default function ContactForm() {
       transition={{ delay: 0.3 }}
       className="text-xl text-blue-100 max-w-3xl leading-relaxed"
     >
-      We'd love to hear from you. Reach out to our team through any of our regional offices.
+      Reach out to us for any inquiries or support.
     </motion.p>
   </div>
-</motion.div>
-        </div>
-      </section>
+</section>
 
       {/* Contact Section */}
       <section className="py-20">
