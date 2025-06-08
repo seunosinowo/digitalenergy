@@ -83,21 +83,21 @@ export default function Footer() {
               <div className="space-y-3">
                 <Link 
                   to="/" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   Home
                 </Link>
                 <Link 
                   to="/about" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   About Us
                 </Link>
                 <Link 
                   to="/services" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   Services
@@ -106,21 +106,21 @@ export default function Footer() {
               <div className="space-y-3">
                 <Link 
                   to="/projects" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   Projects
                 </Link>
                 <Link 
                   to="/oem" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   OEM
                 </Link>
                 <Link 
                   to="/contact" 
-                  className="block text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
+                  className="text-blue-100 hover:text-orange-500 transition-colors text-sm font-medium flex items-center group"
                 >
                   <span className="bg-blue-800 rounded-full w-5 h-5 flex items-center justify-center mr-2 text-xs group-hover:bg-orange-500 transition-colors">→</span>
                   Contact
