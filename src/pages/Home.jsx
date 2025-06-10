@@ -89,7 +89,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl text-center lg:text-left"
             >
-              Leading indigenous multi-diverse energy solutions company providing comprehensive services across the entire energy value chain.
+              Integrated Energy Solutions Tailored for the Future
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -151,21 +151,14 @@ export default function Home() {
               className="order-2 lg:order-1"
             >
               <div className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-1 rounded-full text-sm font-medium mb-4">
-                About Us
+                Our Story
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Who We Are</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transforming Energy Solutions</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                DIGITAL ENERGY & INTEGRATED SERVICES LIMITED (DEISL) is a leading indigenous multi-diverse energy
-                solutions company, we provide comprehensive services across the entire energy value chain, from upstream
-                through midstream to downstream.
+                We are a forward-thinking energy services company delivering end-to-end engineering, procurement, construction, and commissioning solutions to Nigeria's oil and gas industry. From project conception to completion, we bring innovation, local expertise, and global standards to every challenge.
               </p>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                We digitalize the complete energy lifecycle from consolidated EPCOM contracting services, trading of
-                petroleum products, marine services, to product processing, storage, logistics, distribution, and
-                compliance.
-              </p>
-              <Button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-4">
-                Learn More About Us
+              <Button asChild className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-4">
+                <Link to="/about/who-we-are">Learn More</Link>
               </Button>
             </motion.div>
 
@@ -194,19 +187,19 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-white">
+      <section className="py-8 sm:py-12 bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: "-100px" }}
-            className="text-center mb-16"
+            className="text-center mb-8 sm:mb-12"
           >
-            <div className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-1 rounded-full text-sm font-medium mb-4">
+            <div className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-1 rounded-full text-sm font-medium mb-3 sm:mb-4">
               Our Services
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Comprehensive Energy Solutions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Comprehensive Energy Solutions</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               We provide integrated services across the entire energy value chain with technical excellence
             </p>
@@ -240,30 +233,18 @@ export default function Home() {
                     <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-700 transition-colors">
                       {service.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed mb-4">{service.description}</p>
-                  </div>
-                  <div className="px-6 pb-6">
-                    <button className="text-blue-600 font-medium flex items-center group-hover:text-blue-800 transition-colors">
-                      Learn more
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    <p className="text-gray-600">{service.description}</p>
                   </div>
                 </div>
               </motion.div>
             ))}
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true, margin: "-100px" }}
-            className="text-center mt-16"
-          >
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-4 text-lg shadow-lg">
-              View All Services
+          <div className="flex justify-center mt-12">
+            <Button asChild className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-4">
+              <Link to="/services">View all services</Link>
             </Button>
-          </motion.div>
+          </div>
         </div>
       </section>
 
