@@ -5,37 +5,33 @@ import { Clock, Award, Users, Building2, Target, Lightbulb } from "lucide-react"
 const milestones = [
   {
     id: 1,
-    year: "2010",
+    year: "2015",
     title: "Company Foundation",
-    description: "Digital Energy was established with a vision to transform the energy sector.",
+    description: "Digital Energy & Integrated Services Limited was established as a leading indigenous multi-disciplinary Engineering & Project Management organization, offering world-class services in Oil & Gas, Energy, Marine and ICT sectors.",
     icon: Building2
   },
   {
     id: 2,
-    year: "2015",
-    title: "Expansion",
-    description: "Expanded operations to multiple regions and established key partnerships.",
+    title: "Service Expansion",
+    description: "Expanded our service portfolio to cover Oil & Gas (Upstream, Midstream & Downstream), Energy (Power), Marine and ICT sectors.",
     icon: Target
   },
   {
     id: 3,
-    year: "2018",
-    title: "Innovation Hub",
-    description: "Launched our innovation center to drive technological advancement.",
+    title: "Engineering Excellence",
+    description: "Established our core competencies in all engineering disciplines with cutting-edge project management deployment.",
     icon: Lightbulb
   },
   {
     id: 4,
-    year: "2020",
     title: "Global Recognition",
-    description: "Received international recognition for sustainable energy solutions.",
+    description: "Achieved recognition for delivering world-class services across multiple industries and establishing a strong track record of satisfied customers.",
     icon: Award
   },
   {
     id: 5,
-    year: "2023",
-    title: "Digital Transformation",
-    description: "Completed major digital transformation initiatives.",
+    title: "Digital Innovation",
+    description: "Enhanced our digital capabilities and integrated services to provide comprehensive solutions across the energy value chain.",
     icon: Users
   }
 ]
