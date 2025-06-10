@@ -110,10 +110,10 @@ export default function Home() {
               <button
                 className="relative group inline-flex items-center justify-center px-8 py-4 text-base font-medium text-white bg-white/10 backdrop-blur-sm border-2 border-orange-500 rounded-xl hover:bg-orange-500/20 transition-colors"
               >
-                <span className="relative flex items-center">
-                  Watch Video
-                  <Play className="ml-2 h-5 w-5" />
-                </span>
+                <Link to="/contact" className="relative flex items-center">
+                  Contact Us
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </button>
             </motion.div>
           </div>
