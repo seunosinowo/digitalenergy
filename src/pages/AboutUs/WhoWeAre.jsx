@@ -99,10 +99,10 @@ const WhoWeAre = () => {
           </motion.div>
 
           {/* Company Overview Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
             className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100"
           >
             <div className="max-w-4xl mx-auto">
@@ -170,7 +170,7 @@ const WhoWeAre = () => {
                     <p className="text-gray-700 text-lg">
                       To exceed customer expectations, drive sustainable growth, and deliver value through innovative solutions, exceptional quality services, and an unwavering commitment to safety, social responsibility, and environmental stewardship.
                     </p>
-                  </motion.div>
+              </motion.div>
                 </div>
               </div>
             </div>

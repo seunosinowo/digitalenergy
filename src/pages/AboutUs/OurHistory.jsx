@@ -40,27 +40,6 @@ const milestones = [
   }
 ]
 
-const achievements = [
-  {
-    id: 1,
-    number: "500+",
-    label: "Projects Completed",
-    description: "Successfully delivered energy solutions across various sectors"
-  },
-  {
-    id: 2,
-    number: "50+",
-    label: "Team Members",
-    description: "Growing team of energy and technology experts"
-  },
-  {
-    id: 3,
-    number: "15+",
-    label: "Years Experience",
-    description: "Decades of industry expertise and innovation"
-  }
-]
-
 const OurHistory = () => {
   return (
     <div className="pt-20 bg-gradient-to-b from-gray-50 to-white">
@@ -110,25 +89,7 @@ const OurHistory = () => {
             </div>
           </motion.div>
 
-          {/* Key Achievements */}
-          <div className="grid md:grid-cols-3 gap-6">
-            {achievements.map((achievement, index) => (
-              <motion.div
-                key={achievement.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-7 shadow-lg border border-gray-100"
-              >
-                <div className="text-4xl font-bold text-blue-600 mb-2">
-                  {achievement.number}
-                </div>
-                <p className="text-gray-900 font-medium mb-2">{achievement.label}</p>
-                <p className="text-gray-600 text-sm">{achievement.description}</p>
-              </motion.div>
-            ))}
-          </div>
+          
 
           {/* Timeline Section */}
           <div className="bg-gradient-to-br from-blue-50 to-white py-16 rounded-2xl">
