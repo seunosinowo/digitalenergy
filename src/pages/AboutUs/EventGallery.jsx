@@ -340,7 +340,7 @@ const EventGallery = () => {
           >
             <div className="absolute inset-0">
               <img
-                src="/src/assets/pic_14.png"
+                src="/images/pic_14.png"
                 alt="Photo Gallery"
                 className="w-full h-full object-cover opacity-40"
               />

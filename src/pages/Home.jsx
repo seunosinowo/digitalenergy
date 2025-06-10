@@ -171,7 +171,7 @@ export default function Home() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/src/assets/pic_14.jpg"
+                  src="/images/pic_14.jpg"
                   alt="About Digital Energy"
                   className="w-full h-auto object-cover"
                 />

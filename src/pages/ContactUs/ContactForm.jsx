@@ -48,7 +48,7 @@ export default function ContactForm() {
       <section className="py-16 bg-gradient-to-r from-blue-800 to-blue-900 text-white relative overflow-hidden rounded-2xl mx-4 md:mx-6 lg:mx-8">
   <div className="absolute inset-0">
     <img
-      src="/src/assets/p88.png"
+      src="/images/p88.png"
       alt="Contact Us"
       className="w-full h-full object-cover opacity-40"
     />

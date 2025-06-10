@@ -93,8 +93,8 @@ const OurGovernance = () => {
           >
             <div className="absolute inset-0">
               <img
-                src="/src/assets/pic_3.png"
-                alt="Governance"
+                src="/images/pic_3.png"
+                alt="Our Governance"
                 className="w-full h-full object-cover opacity-40"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-blue-800/70" />

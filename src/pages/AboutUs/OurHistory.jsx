@@ -49,7 +49,7 @@ const OurHistory = () => {
           >
             <div className="absolute inset-0">
               <img
-                src="/src/assets/p7.jpg"
+                src="/images/p7.jpg"
                 alt="Our History"
                 className="w-full h-full object-cover opacity-40"
               />

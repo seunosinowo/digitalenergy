@@ -84,7 +84,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/src/assets/logo.png" 
+              src="/images/logo.png" 
               alt="Digital Energy Logo" 
               className={`transition-all duration-300 ${
                 isScrolled ? "h-10" : "h-12"
