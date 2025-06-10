@@ -252,15 +252,10 @@ export default function Home() {
       <StatsSection />
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-500/90 to-orange-600/90 text-white relative overflow-hidden">
+      <section className="py-20 bg-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-[url('/src/assets/pic_1.png')] bg-cover bg-center opacity-10" />
-          <div className="absolute inset-0 bg-gradient-to-r from-orange-500/95 to-orange-600/95" />
+          <div className="absolute inset-0 bg-[url('/src/assets/pic_1.png')] bg-cover bg-center opacity-5" />
         </div>
-        
-        {/* Floating elements */}
-        <div className="absolute top-20 -right-20 w-72 h-72 rounded-full bg-orange-600/90 blur-3xl"></div>
-        <div className="absolute bottom-10 -left-20 w-64 h-64 rounded-full bg-orange-300/10 blur-3xl"></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
@@ -270,28 +265,29 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
               Ready to Power Your Next Project?
             </h2>
-            <p className="text-xl text-orange-50/90 mb-10 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
               Partner with Digital Energy for innovative, reliable, and sustainable energy solutions. Let's discuss how
               we can bring excellence to your next project.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button className="relative group bg-gradient-to-r from-blue-900 to-blue-950 text-white px-8 py-4 text-lg shadow-lg">
-                <span className="absolute inset-0 bg-gradient-to-r from-blue-800 to-blue-900 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></span>
-                <span className="relative flex items-center">
-                  Request a Quote
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </span>
+              <Button asChild className="relative group bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 text-lg shadow-lg">
+                <Link to="/contact/quote">
+                  <span className="relative flex items-center">
+                    Request a Quote
+                  </span>
+                </Link>
               </Button>
 
-              <Button
-                variant="outline"
-                className="border-2 border-white/80 text-white hover:bg-white/10 px-8 py-4 text-lg backdrop-blur-sm"
+              <Button asChild
+                className="bg-gradient-to-r from-blue-700 to-blue-800 text-white px-8 py-4 text-lg shadow-lg hover:from-blue-800 hover:to-blue-900"
               >
-                Contact Us
+                <Link to="/contact">
+                  Contact Us
+                </Link>
               </Button>
             </div>
           </motion.div>
