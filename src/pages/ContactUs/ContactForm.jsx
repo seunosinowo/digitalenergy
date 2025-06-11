@@ -124,10 +124,10 @@ export default function ContactForm() {
                               <p className="text-gray-600">{office.address}</p>
                             </div>
                             {office.phone && (
-                              <div className="flex items-center">
-                                <Phone className="h-5 w-5 text-gray-500 mr-3 flex-shrink-0" />
-                                <p className="text-gray-600">{office.phone}</p>
-                              </div>
+                            <div className="flex items-center">
+                              <Phone className="h-5 w-5 text-gray-500 mr-3 flex-shrink-0" />
+                              <p className="text-gray-600">{office.phone}</p>
+                            </div>
                             )}
                             <div className="flex items-center">
                               <Mail className="h-5 w-5 text-gray-500 mr-3 flex-shrink-0" />
@@ -217,10 +217,10 @@ export default function ContactForm() {
                     <div>
                       <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">Contact</h3>
                       {activeOffice.phone && (
-                        <p className="text-gray-700 mb-2 flex items-center">
-                          <Phone className="h-5 w-5 text-gray-500 mr-2 flex-shrink-0" />
-                          {activeOffice.phone}
-                        </p>
+                      <p className="text-gray-700 mb-2 flex items-center">
+                        <Phone className="h-5 w-5 text-gray-500 mr-2 flex-shrink-0" />
+                        {activeOffice.phone}
+                      </p>
                       )}
                       <p className="text-gray-700 flex items-center">
                         <Mail className="h-5 w-5 text-gray-500 mr-2 flex-shrink-0" />

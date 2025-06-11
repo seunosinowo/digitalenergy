@@ -345,7 +345,7 @@ export default function BecomePartner() {
 										<Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2">
 											Submit Partnership Request
 											<ArrowRight className="h-5 w-5" />
-										</Button>
+									</Button>
 									</div>
 								</form>
 							</CardContent>

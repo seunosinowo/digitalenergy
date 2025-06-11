@@ -92,6 +92,11 @@ export default function Header() {
             />
           </Link>
 
+          {/* Certification Logos */}
+          <div className="hidden md:flex items-center space-x-4 ml-8">
+            <img src="/images/iso.JPG" alt="ISO Certification" className="h-12 opacity-80 hover:opacity-100 transition-opacity" />
+          </div>
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
