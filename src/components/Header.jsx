@@ -5,8 +5,6 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { Link, useNavigate, useLocation } from "react-router-dom"
 import { Button } from "@/components/ui/button"
-import logo from '/images/logo.png';
-import iso from '/images/iso.JPG';
 
 const aboutLinks = [
   { name: "Who We Are", href: "/about/who-we-are" },
@@ -86,7 +84,7 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src={logo} 
+              src="/images/logo.png" 
               alt="Digital Energy Logo" 
               className={`transition-all duration-300 ${
                 isScrolled ? "h-10" : "h-12"
@@ -96,7 +94,7 @@ export default function Header() {
 
           {/* Certification Logos */}
           <div className="hidden md:flex items-center space-x-4 ml-8">
-            <img src={iso} alt="ISO Certification" className="h-12 opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/images/iso.JPG" alt="ISO Certification" className="h-12 opacity-80 hover:opacity-100 transition-opacity" />
           </div>
 
           {/* Desktop Navigation */}
