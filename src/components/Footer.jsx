@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="w-full bg-orange-500 px-4 md:px-8 py-4">
         <div className="max-w-6xl mx-auto">
           <span className="block text-base md:text-lg lg:text-xl font-medium text-white text-left">
-            Delivering reliable and timely solutions for our valued clients.
+            Empowering your success with dependable and prompt energy solutions.
           </span>
         </div>
       </div>

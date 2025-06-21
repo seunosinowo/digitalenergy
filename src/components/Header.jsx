@@ -136,14 +136,14 @@ export default function Header() {
       </div>
       {/* Main Header Bar */}
       <div 
-        className="bg-gray-100 transition-all duration-300 py-2"
+        className="bg-[#aaaaaa] transition-all duration-300 py-2"
       >
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/images/logo1.jpg" 
+                src="/images/logo1.png" 
                 alt="Digital Energy Logo" 
                 className={`transition-all duration-300 ${
                   isScrolled ? "h-12" : "h-14"
@@ -152,8 +152,8 @@ export default function Header() {
             </Link>
             {/* Certification Logos */}
             <div className="hidden md:flex items-center ml-8">
-              <img src="/images/Bms1.jpg" alt="ISO Certification" className="h-24 w-28 opacity-80 hover:opacity-100 transition-opacity" />
-              <img src="/images/Bms2.jpg" alt="ISO Certification" className="h-24 w-28 opacity-80 hover:opacity-100 transition-opacity -ml-4" />
+              <img src="/images/Bms1.png" alt="ISO Certification" className="h-24 w-28 opacity-80 hover:opacity-100 transition-opacity" />
+              <img src="/images/Bms2.png" alt="ISO Certification" className="h-24 w-28 opacity-80 hover:opacity-100 transition-opacity -ml-4" />
             </div>
             {/* Right Actions */}
             <div className="flex items-center space-x-4">
