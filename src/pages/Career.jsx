@@ -72,7 +72,7 @@ const Career = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-[160px]">
+    <div className="min-h-screen bg-gray-50 pt-[220px]">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-800 to-blue-900 text-white py-20 overflow-hidden">
         <div className="absolute inset-0">

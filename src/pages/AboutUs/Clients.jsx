@@ -157,7 +157,7 @@ const Clients = () => {
   }
 
   return (
-    <div className="pt-32 bg-white">
+    <div className="pt-48 bg-white">
       <div className="container mx-auto px-4 md:px-6 py-8">
         <div className="space-y-16">
           {/* Hero Section */}

@@ -175,10 +175,10 @@ const Home = () => {
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }} 
       transition={{ duration: 0.5 }}
-      className="overflow-hidden pt-32"
+      className="overflow-hidden pt-48"
     >
       {/* Hero Section with Slider */}
-      <section className="relative bg-gradient-to-br from-blue-900 to-blue-950 text-white overflow-hidden min-h-[90vh] flex items-center pt-[112px]">
+      <section className="relative bg-gradient-to-br from-blue-900 to-blue-950 text-white overflow-hidden min-h-[90vh] flex items-center pt-[180px]">
         {/* Slider */}
         <div className="absolute inset-0 z-0">
           <AnimatePresence mode="wait">
