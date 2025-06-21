@@ -199,7 +199,7 @@ const Home = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="container mx-auto px-4 pt-32 pb-16 md:pt-44 md:pb-24 relative z-20">
+        <div className="container mx-auto px-4 pt-44 pb-16 md:pt-56 md:pb-24 relative z-20">
           <div className="max-w-4xl mx-auto lg:text-left flex flex-col items-center lg:items-start">
             <AnimatePresence mode="wait">
               <motion.div
