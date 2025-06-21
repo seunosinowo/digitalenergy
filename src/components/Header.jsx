@@ -89,7 +89,7 @@ export default function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 w-full z-50">
       {/* Top Bar: Contact Info, Language, Google Logo & Request Quote */}
-      <div className="bg-[#002147] text-white text-sm py-2">
+      <div className="bg-blue-800 text-white text-sm py-2">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between space-y-2 md:space-y-0">
           {/* Top section: Language + Contact Info */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6">
@@ -114,7 +114,11 @@ export default function Header() {
             </div>
             <div className="flex items-center">
               <Phone className="h-4 w-4 mr-2 text-white" />
-              <span>+234 810 125 9849</span>
+              <span>+234 (0) 810  125 9849</span>
+            </div>
+            <div className="flex items-center">
+              <Phone className="h-4 w-4 mr-2 text-white" />
+              <span>+234 (0) 201 453 6157</span>
             </div>
             <div className="flex items-center">
               <Mail className="h-4 w-4 mr-2 text-white" />
@@ -136,7 +140,7 @@ export default function Header() {
       </div>
       {/* Main Header Bar */}
       <div 
-        className="bg-[#aaaaaa] transition-all duration-300 py-2"
+        className="bg-[#aaaaaa] transition-all duration-300 py-6"
       >
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-between h-20">
@@ -195,7 +199,7 @@ export default function Header() {
         </div>
       </div>
       {/* Bottom Navigation Bar */}
-      <div className="bg-blue-800 text-white">
+      <div className="bg-white text-blue-800 border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4">
           <nav className="hidden md:flex items-center justify-between">
             {navLinks.map((link) =>
@@ -215,7 +219,7 @@ export default function Header() {
                       (link.key === "about" && aboutLinks.some(l => location.pathname === l.href)) ||
                       (link.key === "contact" && contactLinks.some(l => location.pathname === l.href))
                         ? "bg-blue-800 text-white" 
-                        : "hover:bg-blue-800 hover:text-white text-white"
+                        : "hover:bg-blue-800 hover:text-white text-blue-800"
                     }`}
                   >
                     <span>{link.name}</span>
@@ -270,7 +274,7 @@ export default function Header() {
                   className={`relative font-medium px-4 py-3 transition-colors duration-200 ${
                     location.pathname === link.href 
                       ? "bg-blue-800 text-white" 
-                      : "hover:bg-blue-800 hover:text-white text-white"
+                      : "hover:bg-blue-100 hover:text-blue-800 text-blue-800"
                   }`}
                 >
                   {link.name}
@@ -279,7 +283,7 @@ export default function Header() {
             )}
             <Link
               to="/about/who-we-are"
-              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-blue-800 rounded-lg hover:bg-blue-800 hover:text-white transition-colors shadow-sm ml-4"
+              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-blue-800 rounded-lg hover:bg-blue-900 hover:text-white transition-colors shadow-sm ml-4"
             >
               {t("header.learnMore")}
             </Link>
