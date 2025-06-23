@@ -2,11 +2,8 @@
 import { motion } from "framer-motion"
 import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
 import { Link } from "react-router-dom"
-import { useTranslation } from "react-i18next"
 
 export default function Footer() {
-  const { t } = useTranslation();
-
   return (
     <footer className="bg-blue-900 text-white w-full">
       {/* Top Orange Bar */}
